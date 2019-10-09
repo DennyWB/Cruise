@@ -58,3 +58,10 @@
   width: 100%;
   height: 100%;
 }
+
+.ship-info-details{
+	height: 55px;
+	background-color: #f0f0f0;
+	font-size: 18px;
+	font-family: lora-bold;
+}
