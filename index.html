@@ -157,17 +157,19 @@
     <!-- End about our company -->
 
     <!-- Start Details Company -->
-    <div class="container">
-      <div class="row">
-        <div class="img-company col-md-3 offset-md-1" data-aos="fade-right">
-          <img src="images/logo-his.jpg">
-        </div>
+    <section class="bgwhite my-padding-bottom p-t-10">
+      <div class="container">
+        <div class="row">
+          <div class="img-company col-md-3 offset-md-1" data-aos="fade-right">
+            <img src="images/logo-his.jpg">
+          </div>
 
-        <div class="desc-company col-md-8 p-t-10 deskripsi text-justify"  data-aos="fade-left">
-          <span>His Travel Indonesia merupakan Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do.</span>
+          <div class="desc-company col-md-8 p-t-10 deskripsi text-justify"  data-aos="fade-left">
+            <span>His Travel Indonesia merupakan Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure do.</span>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
     <!-- End Details Company -->
 
     <!-- start title Best Seller -->
@@ -180,8 +182,6 @@
       <section class="bgwhite my-padding-bottom p-t-10">
         <div class="container">
 
-          <!-- Tab01 -->
-          <div class="tab01">
             <!-- Tab panes -->
             <div class="tab-content p-t-10">
               <!-- - -->
@@ -364,9 +364,7 @@
 
                 </div>
               </div>
-
             </div>
-          </div>
         </div>
       </section>
     <!-- End best seller products -->
@@ -418,7 +416,7 @@
     $('.block2-btn-addcart').each(function(){
       var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
       $(this).on('click', function(){
-        swal(nameProduct, "is added to cart !", "success");
+        swal(nameProduct, "", "success");
       });
     });
 
